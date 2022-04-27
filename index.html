@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+</head>
+<body>
+
+  <div class="wrapper">
+    <nav>
+      <img src="images/logo.svg" alt="Logo" title="logo" class = "logo">
+      <div class="open-close">
+        <img src="images/icon-menu.svg" alt="menu" class="open">
+        <img src="images/icon-close-menu.svg" alt="close" class = "close mobile">
+      </div>
+  
+      <div class="main-nav mobile desktop">
+        <div class="black mobile"></div>
+       <ul class="nav-list">
+        <li class="navF feat">
+          <details>
+            <summary>Features</summary>
+              <ul class="feat-list">
+                <li class = "todo">Todo List</li>
+                <li class = "cal">Calender</li>
+                <li class = "rem">Reminders</li>
+                <li class = "plan">Planning</li>
+              </ul>
+          </details>
+        </li>
+        <li class="navF comp">
+          <details>
+            <summary>Company</summary>
+              <ul class="comp-list">
+                <li>History</li>
+                <li>Our Team</li>
+                <li>Blog</li>
+              </ul>
+          </details>
+        </li>
+  
+        <li class="navF">Careers</li>
+        <li class="navF">About</li>
+       </ul>
+      </div>
+  
+      <div class="desktop">
+        <div class="login">
+          <p>Login</p>
+          <p>Register</p>
+        </div>
+      </div>
+    </nav>
+  
+    <main class = "main-wrapper">
+      <div class = "head">
+        <img src="images/image-hero-mobile.png" alt="image-hero-mobile" class="banner">
+      </div>
+      
+      <div class = "main">
+          <h1>Make <span>remote work</span></h1>
+          <p>Get your team in sync, no matter your location. Streamline processes, 
+            create team rituals, and watch productivity soar.</p>
+          <button>Learn more</button>
+  
+          <div class = "clients">
+            <img src="images/client-databiz.svg" alt="databiz client">
+            <img src="images/client-audiophile.svg" alt="client-audiophile">
+            <img src="images/client-meet.svg" alt="client-meet">
+            <img src="images/client-maker.svg" alt="client-maker">
+          </div>
+      </div>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
